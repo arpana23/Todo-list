@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+}
+
+.well {
+  background-image: linear-gradient(rgb(22, 26, 56),rgb(2, 5, 29),rgb(32, 4, 84),rgb(38, 44, 89));
+  width: 40%;  
+}
+
+.addInput {
+  margin: 18px;
+  width: 70%;
+  height: 5vh;
+  border-radius: 4px;
+  background-color: black;
+  outline: black;
+  border-color: black;
+  color:blanchedalmond;
+  font-size: 14px;
+
+
+}
+
+.addInput::placeholder {
+  color:blanchedalmond;
+  margin-left: 2px;
+}
+
+.btn {
+  margin: 3px;
+  width: 20%;
+  height: 5.5vh;
+  border-radius: 5px;
+  margin-top: -2px;
+  font-weight: bold;
+  background-color: blanchedalmond;
+  color: black;
+  outline: transparent;
+  border: 2px solid blanchedalmond;
+}
+
+.btn:hover {
+  background-color: blueviolet;
+  color: black;
+  font-weight: bold;
+  outline: transparent;
+  border-color: transparent;
+}
+
+.btn::-webkit-validation-bubble-arrow-clipper {
+  background-color: blueviolet;
+  color: black;
+  outline: transparent;
+  border-color: transparent;
+}
+
+.list-group {
+  margin: 11px;
+}
+
+.mylist {
+  /* border: 1px solid black; */
+  margin-top: 10px;  
+  margin-bottom: 10px;  
+  text-align: justify;
+  /* border-radius: 7px; */
+}
+
+.list-group-item {
+  word-wrap: break-word;
+  background-image: linear-gradient(rgb(32, 4, 84),rgb(38, 44, 89));
+}
+
+.my-text {
+  margin-right: 3px;
+  word-wrap: break-word;
+  color: blanchedalmond;
+}
+
+.ed-del {
+  display: flex;
+  flex-direction: row;
+  margin-top: -20px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fas {
+  font-size: 20px;
+  margin: 3px;
+  display: flex;
+  flex-direction: row;
+  /* margin: 7px; */
+  align-items: center;
+}
+
+.title {
+  color: #dadada ;
+  font-family: 'Satisfy', cursive;
+}
+
+.fa-trash {
+  color: rgb(45, 30, 255);
+}
+
+.fa-edit {
+  color:rgb(221, 84, 203);
+}
+
+@media screen and (max-width: 480px) {
+  .well {
+    width: 98%;
+  }
+
+  .addInput::placeholder {
+    color:blanchedalmond;
+    margin-left: 2px;
+  }
+  
+  .btn {
+    margin: 3px;
+    width: 20%;
+    height: 5.5vh;
+    border-radius: 5px;
+    margin-top: -2px;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    color: black;
+    outline: transparent;
+    border: 2px solid blanchedalmond;
+  }
+  
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .well {
+    width: 90%;  
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .well {
+    width: 90%;  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

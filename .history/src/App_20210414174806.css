@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+
+.well {
+  /* background-color: black; */
+  width: 40%;  
+}
+
+
+

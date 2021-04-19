@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-container {
+  justify-content: center;
+
+}
+
+.well {
+  /* background-color: black; */
+  width: 40%;  
+}
+
+
+

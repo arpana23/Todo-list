@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.well {
+  /* background-color: black; */
+  width: 40%;  
+}
+
+
+
